@@ -13,6 +13,7 @@ module.exports = defineConfig({
     video: true,
     videosFolder: "cypress/videos",
     reporter: "cypress-mochawesome-reporter",
+    projectId: "y7ztrx",
     reporterOptions: {
       charts: true,
       reportPageTitle: "Saucedemo Cypress Tests",
