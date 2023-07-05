@@ -15,8 +15,8 @@ beforeEach("A user opens the saucedemo website", () => {
   login.submitLogin(data.username[0], data.password[0]);
 });
 
-describe("Inventory Page - Test Suite", () => {
-  it("Validate products filter", () => {
+describe("Add to Cart - Test Suite", () => {
+  it("Inventory Page - Validate products filter", () => {
     cy.log("Select the option 'Price low to high' and validate");
     inventory.selectFilterLowToHigh();
     inventory.validateLoHiOrder();

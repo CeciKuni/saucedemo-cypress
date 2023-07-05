@@ -10,7 +10,7 @@ module.exports = defineConfig({
     viewportHeight: 768,
     chromeWebSecurity: false,
     testIsolation: false,
-    video: true,
+    video: false,
     videosFolder: "cypress/videos",
     reporter: "cypress-mochawesome-reporter",
     reporterOptions: {
