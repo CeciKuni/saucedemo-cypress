@@ -10,10 +10,9 @@ module.exports = defineConfig({
     viewportHeight: 768,
     chromeWebSecurity: false,
     testIsolation: false,
-    video: true,
+    video: false,
     videosFolder: "cypress/videos",
     reporter: "cypress-mochawesome-reporter",
-    projectId: "y7ztrx",
     reporterOptions: {
       charts: true,
       reportPageTitle: "Saucedemo Cypress Tests",
