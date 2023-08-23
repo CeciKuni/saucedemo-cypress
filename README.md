@@ -15,7 +15,7 @@ Test Cases with Cypress and some validations for the page "Sauce Demo".
 
 ## Installations performed
 
--   [Nodejs](https://nodejs.org/es/download). Configure the path to the "nodejs" folder in the Windows environment variables. This will allow us to use the npm command to check the versions:
+-   [Nodejs](https://nodejs.org/es/download). Configure the path to the "nodejs" folder in Windows environment variables. This will allow us to use the npm command to check the versions:
 
 ```
 $ node -v
